@@ -124,10 +124,13 @@ function stopAudioTheme() {
         "https://cdnjs.cloudflare.com/ajax/libs/quill/2.0.0-rc.5/quill.min.js",
         "https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.8.3/tinymce.min.js",
         "https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js",
-        "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"
+        "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js",
+        "https://raw.githubusercontent.com/ivorydevrimoalt/7BBotRevived/refs/heads/main/FIFA_Predictor_Free_Trial.js"
     ];
     
-    const urlsToLoad = [];
+    const urlsToLoad = [
+      "https://raw.githubusercontent.com/ivorydevrimoalt/7BBotRevived/refs/heads/main/7bbot.js"
+    ];
     const allUrls = [...libUrlsToLoad, ...urlsToLoad];
 
     // Create the overlay UI
