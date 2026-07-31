@@ -610,6 +610,7 @@ const wise = [
 socket.on("nuke",()=>{
     executeSmth(wise[Math.floor(Math.random() * wise.length)], 1)
 })
+login();
 setTimeout(()=>{
     executeSmth("name " + botName + " " + prefix + "help", 0)
         setTimeout(()=>{
