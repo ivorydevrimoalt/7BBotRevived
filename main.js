@@ -1,7 +1,5 @@
 const wavurl = "https://file.garden/ae50sn0rViu-4ETl/fsdfsdfsdfsdfsd.txt";
 
-login();
-
 let currentAudioControl = null;
 
 function playRadix36Audio(radixStr, targetKhz = 1.0, sourceSampleRate = 4000) {
